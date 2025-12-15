@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css" />
+  <title>BLACKPINK Fan Pulse</title>
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">BP-PULSE</div>
+      <div class="links">
+        <a href="#members">Members</a>
+        <a href="#discography">Tracks</a>
+        <a href="#memory" class="pill">Memory</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Happy Birthday, Zullll!</p>
+      <h1>HAPPY BIRTHDAYY ABEYY ZULLLLL</h1>
+      <p class="sub">Play surprise playlist, kira detik party, dan tengok memory board.</p>
+      <div class="cta">
+        <a class="btn primary" id="play-btn" href="#playlist">Play Surprise</a>
+        <a class="btn ghost" href="#memory">Memory Board</a>
+      </div>
+      <div class="countdown">
+        <p class="eyebrow">Countdown</p>
+        <div class="timer" id="timer">Loading...</div>
+      </div>
+    </div>
+    <div class="hero-marquee">
+      <div class="marquee-track">
+        <span>SELAMAT MENETAS ZULLLLL NNTI NIKAH JEMPUT KAMI YAAA</span>
+        <span>SELAMAT MENETAS ZULLLLL NNTI NIKAH JEMPUT KAMI YAAA</span>
+      </div>
+    </div>
+  </header>
+
+  <section id="members" class="panel members">
+    <div class="section-head">
+      <p class="eyebrow">Members</p>
+      <h2>Icons of the Era</h2>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <img src="rose.jpg" alt="Rose" />
+        <div class="card-body"><h3>Rose</h3><p>Main vocal - Guitar</p><span>Born: 11 Feb 1997</span></div>
+      </article>
+      <article class="card">
+        <img src="jennie.jpg" alt="Jennie" />
+        <div class="card-body"><h3>Jennie</h3><p>Main rapper - Trendsetter</p><span>Born: 16 Jan 1996</span></div>
+      </article>
+      <article class="card">
+        <img src="jisoo.jpg" alt="Jisoo" />
+        <div class="card-body"><h3>Jisoo</h3><p>Lead vocal - Visual</p><span>Born: 3 Jan 1995</span></div>
+      </article>
+      <article class="card">
+        <img src="lisa.jpg" alt="Lisa" />
+        <div class="card-body"><h3>Lisa</h3><p>Main dancer - Rap</p><span>Born: 27 Mar 1997</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="discography" class="panel">
+    <div class="section-head">
+      <p class="eyebrow">Discography</p>
+      <h2>Anthems on Repeat</h2>
+    </div>
+    <div class="scroll-row">
+      <div class="album">
+        <div class="cover">Born Pink</div><p>2022 - Shutdown</p>
+      </div>
+      <div class="album">
+        <div class="cover">The Album</div><p>2020 - Lovesick Girls</p>
+      </div>
+      <div class="album">
+        <div class="cover">Kill This Love</div><p>2019 - DDU-DU DDU-DU</p>
+      </div>
+      <div class="album">
+        <div class="cover">Square Up</div><p>2018 - Forever Young</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="playlist" class="panel playlist">
+    <div class="section-head">
+      <p class="eyebrow">Playlist</p>
+      <h2>Surprise Tracks</h2>
+    </div>
+    <div class="embed video-embed">
+      <video id="surprise-video" src="Surprise%20Tracks.mp4" controls playsinline loop muted autoplay poster="gambar1.jpeg"></video>
+    </div>
+  </section>
+
+  <section id="memory" class="panel photos">
+    <div class="section-head">
+      <p class="eyebrow">Memory Dashboard</p>
+      <h2>Memory Board</h2>
+    </div>
+    <div class="memory-marquee">
+      <div class="memory-track">
+        <img src="gambar1.jpeg" alt="Moment 1" />
+        <img src="gambar2.jpeg" alt="Moment 2" />
+        <img src="gambar3.jpeg" alt="Moment 3" />
+        <img src="gambar4.jpeg" alt="Moment 4" />
+        <img src="gambar5.jpeg" alt="Moment 5" />
+        <img src="gambar6.jpeg" alt="Moment 6" />
+        <img src="gambar7.jpeg" alt="Moment 7" />
+        <img src="gambar8.jpeg" alt="Moment 8" />
+        <img src="gambar1.jpeg" alt="Moment 1 repeat" />
+        <img src="gambar2.jpeg" alt="Moment 2 repeat" />
+        <img src="gambar3.jpeg" alt="Moment 3 repeat" />
+        <img src="gambar4.jpeg" alt="Moment 4 repeat" />
+        <img src="gambar5.jpeg" alt="Moment 5 repeat" />
+        <img src="gambar6.jpeg" alt="Moment 6 repeat" />
+        <img src="gambar7.jpeg" alt="Moment 7 repeat" />
+        <img src="gambar8.jpeg" alt="Moment 8 repeat" />
+      </div>
+      <div class="memory-fade left"></div>
+      <div class="memory-fade right"></div>
+    </div>
+    <div class="cake-banner">
+      <div class="cake-plate">
+        <div class="cake-layer layer1"></div>
+        <div class="cake-layer layer2"></div>
+        <div class="cake-layer layer3"></div>
+        <div class="candle"></div>
+        <div class="candle-flame"></div>
+      </div>
+      <div class="cake-text">
+        <p>Selamat Hari Jadi, Zullll!</p>
+        <span>May your day glow as hard as BLACKPINK beats.</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>BLACKPINK FAN PULSE - Built by Blinks</p>
+    <div class="socials">
+      <a href="#">YouTube</a><a href="#">Spotify</a><a href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <audio id="bg-audio" src="BLACKPINK%20-%20%27Kill%20This%20Love%27%20MV.mp3" autoplay loop preload="auto"></audio>
+
+  <script>
+    // Countdown to birthday
+    const target = new Date('2024-12-16T00:00:00');
+    const timerEl = document.getElementById('timer');
+    function updateTimer() {
+      const now = new Date();
+      const diff = target - now;
+      if (diff <= 0) {
+        timerEl.textContent = 'Happy Birthday, Zullll!';
+        clearInterval(interval);
+        document.body.classList.add('celebrate');
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const mins = Math.floor((diff / (1000 * 60)) % 60);
+      const secs = Math.floor((diff / 1000) % 60);
+      timerEl.textContent = `${days}d ${hours}h ${mins}m ${secs}s`;
+    }
+    const interval = setInterval(updateTimer, 1000);
+    updateTimer();
+
+    // Play surprise video on button click, unmute for sound
+    const playBtn = document.getElementById('play-btn');
+    const surpriseVideo = document.getElementById('surprise-video');
+    if (playBtn && surpriseVideo) {
+      playBtn.addEventListener('click', () => {
+        surpriseVideo.muted = false;
+        surpriseVideo.play().catch(() => {});
+      });
+      surpriseVideo.addEventListener('play', () => {
+        if (bgAudio) {
+          bgAudio.pause();
+        }
+      });
+      surpriseVideo.addEventListener('pause', () => {
+        if (bgAudio) {
+          bgAudio.play().catch(() => {});
+        }
+      });
+      surpriseVideo.addEventListener('ended', () => {
+        if (bgAudio) {
+          bgAudio.play().catch(() => {});
+        }
+      });
+    }
+
+    // Autoplay background audio
+    const bgAudio = document.getElementById('bg-audio');
+    if (bgAudio) {
+      bgAudio.volume = 0.7;
+      const tryPlay = () => bgAudio.play().catch(() => {});
+      tryPlay();
+      window.addEventListener('click', tryPlay, { once: true });
+      window.addEventListener('touchstart', tryPlay, { once: true });
+    }
+  </script>
+</body>
+</html>
